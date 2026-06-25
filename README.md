@@ -4,18 +4,11 @@ A feature-rich serial terminal application with built-in logging, encryption, an
 
 ## Features
 
-- **Interactive Port Selection** - Auto-detect and select from available serial ports
 - **Encrypted Logging** - Secure session logging with Fernet encryption
 - **System Command Execution** - Run system commands directly from the terminal
 - **Session Management** - Unique session IDs for each connection
 - **Auto-reconnection** - Automatically attempts to reconnect on disconnection
-- **Color-coded Output** - Enhanced readability with colorized terminal output
 - **Command History** - Persistent command history across sessions
-- **Multiple Port Selection Methods**:
-  - Command-line arguments (`-p`)
-  - Environment variables (`SERIAL_PORT`)
-  - Interactive menu with auto-detection
-  - Runtime port switching
 
 ## Installation
 
